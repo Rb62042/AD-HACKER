@@ -1,0 +1,95 @@
+body {
+    font-size: 15pt;
+    background-image: url(images/Nature.jpg);
+    background-size: cover;
+    font-family: serif;
+    align-items: center;
+   background: flex;
+   justify-content: center;
+}
+
+.box{
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  border:3px solid;
+  border-color:red;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: content;
+  margin-top: 30%;
+}
+
+
+#lgn{
+  font-family: serif;
+  color: blue;
+  font-size: 30px;
+}
+
+
+
+#user{
+  border: 2px solid;
+  border-color:blue;
+ margin-top: 20px;
+ border-radius: 5px;
+ height:30px;
+ color: red;
+ outline: none;
+ background: #5511DC;
+ width: 100%;
+}
+
+#user:hover{
+  background-color: #78B1EB;
+  border: 3px solid blue;
+  border-radius: 10px; 
+  outline: none;
+  transition: 0.5s;
+  
+}
+
+#lebel{
+  color: red;
+  font-family: serif;
+  
+}
+
+#logo{
+  height: 100px;
+  width: 100px;
+  border: 3px solid red;
+  border-radius: 50%;
+  
+  
+}
+
+#btn{
+  height: 50px;
+  width: 100%;
+  margin-top: 10px;
+  outline: none;
+  color:green;
+  background: rgba(45, 22, 1, 0.4);
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: poppins;
+}
+
+#btn:hover{
+  background: rgba(0, 0, 0, 0.3);
+  background-color: red;
+  
+}
+
+#pc{
+  color: red;
+  margin-right: 170px;
+  font-size: 15px;
+}
+
+#account{
+  color:red;
+}
